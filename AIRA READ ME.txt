@@ -1,0 +1,8 @@
+Yellow: #F8FBB6
+Green:#a0edaf
+Font sa headers and shit:
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+ font-family: 'Fredoka One', cursive; 
+
+Font sa paragraph and the rest: font-family: 'Didact Gothic', sans-serif;
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fredoka+One&display=swap" rel="stylesheet">
