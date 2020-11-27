@@ -51,6 +51,10 @@ nav ul li{
   margin-right: 20px;
 
 }
+nav ul li a:hover{
+  text-decoration: underline;
+  font-weight: bolder;
+}
 a{
   text-decoration: none;
   color: #000000;
@@ -481,23 +485,14 @@ background-image: url(images/succcc.png);
 }
 
 
-.textagain  {
-  float: left;
-  padding-top: 50px;
-  margin-left: 50px;
-  padding-left: 30px;
-}
-.subscription{
-  float: left
-}
 form {
-  border: 4px solid #f1f1f1;
+
 }
 
 /* Add some padding and a grey background color to containers */
 .mcontainer {
   padding: 20px;
-  background-color: #f1f1f1;
+
 }
 
 /* Style the input elements and the submit button */
@@ -508,6 +503,8 @@ input[type=text], input[type=submit] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  border-radius: 10px;
+  font-family: 'Zilla Slab', serif;
 }
 
 /* Add margins to the checkbox */
@@ -517,15 +514,37 @@ input[type=checkbox] {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #73e6d7;
+  color: #000000;
   border: none;
+  font-family: 'Zilla Slab', serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 input[type=submit]:hover {
   opacity: 0.8;
 }
 
+
+.textagain  {
+  float: left;
+  padding-top: 50px;
+  margin-left: 50px;
+  padding-left: 40px;
+}
+.textagain h3{
+  margin-bottom: 10px;
+}
+.subscription{
+  float: left;
+  margin-top: 60px;
+  margin-left: 80px;
+   font-family: 'Zilla Slab', serif;
+   padding-left: 60px;
+
+
+}
 .textagain h1{
   font-size: 55px;
 }
